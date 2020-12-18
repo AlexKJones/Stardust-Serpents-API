@@ -3,8 +3,7 @@ const mongoose = require('mongoose')
 const productSchema = new mongoose.Schema({
   genes: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   price: {
     type: Number,
