@@ -24,11 +24,16 @@ Wireframe: [Wireframe](https://i.imgur.com/bUCFV2h.jpg)
 
 ERD: [ERD](https://i.imgur.com/baqw863.jpg)
 
-Alternate Repo: [API](https://alexkjones.github.io/Stardust-Serpents-API/)
+API Repo: [API](https://alexkjones.github.io/Stardust-Serpents-API/)
+
+Client Repo: [API](https://github.com/AlexKJones/Stardust-Serpents-Client)
 
 Heroku API: [Deployed Heroku API](https://dashboard.heroku.com/apps/secret-mountain-85824)
 
 Deployed Client-Side Link: [Deployed Client-Side](https://alexkjones.github.io/Stardust-Serpents-Client/#/)
+
+Screenshot: [Screenshot](https://i.imgur.com/4Bk5x9h.png)
+
 
 ### Included Routes
 
@@ -53,4 +58,17 @@ different components for user actions.
 | `/question-update/:questionId` | `PATCH`  | Yes |
 | `/question/:questionId`        | `DELETE`   | Yes |
 
+Local Install instructions:
+- Clone and Fork Client Repo and Api Repo
 
+- Download the client Repo and api repo as zip file and unzip both into the same folder together.
+
+- Open Client side in terminal and run 'npm install'
+
+- Open local with 'npm start'
+
+- Open Api side in terminal and run 'npm install'
+
+- Open Server with 'npm run server'
+
+- If not opened on its own open browser to url http://localhost:7165/
