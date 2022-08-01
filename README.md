@@ -57,7 +57,7 @@ different components for user actions.
 | `/question/:questionId`       | `GET`    | Yes |
 | `/question-update/:questionId` | `PATCH`  | Yes |
 | `/question/:questionId`        | `DELETE`   | Yes |
-
+:)
 Local Install instructions:
 - Clone and Fork Client Repo and Api Repo
 
