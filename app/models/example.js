@@ -18,4 +18,5 @@ const exampleSchema = new mongoose.Schema({
   timestamps: true
 })
 
+// nothing
 module.exports = mongoose.model('Example', exampleSchema)
